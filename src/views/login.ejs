@@ -37,20 +37,21 @@
     <title>Login/Sign Up Form</title>
   </head>
   <% if(typeof errors != 'undefined'){ %>
-    <h2>Errores</h2>
-    <p style="color:red">ERROR</p>
     <ul>
       <% for (let i=0; i<errors.length; i++){ %>
         <li style="color:red">
           <%= errors[i].msg %>
         </li>
         <%}%>
+        <% if (typeof errors.usuarios != 'undefined' ) { %>
+          <li style="color:red">
+            <%= errors.usuarios %>
+          </li>
+      <% }%>
     </ul>
     <%}%>
 
-
-
-  <body>
+    <body>
     <div class="container" id="container">
       <!-- CONTENEDOR LOGIN -->
       <div class="form-container sign-in-container">

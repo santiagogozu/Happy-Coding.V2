@@ -29,8 +29,6 @@ const mainController={
             const usuario = req.session.username
             return res.render("tshirts", {usuario, products})
         }
-
-        // return res.render("tshirts")
     },
 
     // MOSTRAR PAGINA SOCKS
@@ -43,7 +41,6 @@ const mainController={
             const usuario = req.session.username
             return res.render("socks", {usuario, products})
         }
-
     },
 
     // MOSTRAR PAGINA BAGS
@@ -56,7 +53,6 @@ const mainController={
             const usuario = req.session.username
             return res.render("bags", {usuario, products})
         }
-
     },
 
     // MOSTRART PAGINA HODDIES
@@ -69,7 +65,6 @@ const mainController={
             const usuario = req.session.username
             return res.render("hoodies", {usuario, products})
         }
-
     },
 
     // MOSTRAR PAGINA HATS
@@ -82,7 +77,6 @@ const mainController={
             const usuario = req.session.username
             return res.render("hats", {usuario, products})
         }
-
     },
 
     // BARRA DE BUSQUEDA

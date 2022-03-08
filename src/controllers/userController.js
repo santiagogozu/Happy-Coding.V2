@@ -61,7 +61,7 @@ const userController={
       // COMPARADOR PARA VERIFICAR SI TENEMOS ERRORES EN EL LOGIN
       if(errors.isEmpty()){
 
-        req.session.username = req.body.username
+        
         const usuario = req.session.username
 
         const user = req.body.username;
@@ -76,7 +76,10 @@ const userController={
 			    if (bcrypt.compareSync(password,userVerificado.pass1)) {
               //  req.session.userVerificado = userVerificado; //PORUQE SE HACE ESTO ???
 
-            if (req.body.remember) {
+              req.session.username = req.body.username
+            
+            
+              if (req.body.remember) {
 
               const token = crypto.randomBytes(64).toString('base64');
               userVerificado.token=token
@@ -90,20 +93,17 @@ const userController={
             }
 				    // Finalmente lo mandamos a la home
 				    res.redirect('/');
+          }else{
+            console.log("usuario no valido")
+            res.render('login', {old: req.body, errors: {usuarios: 'contraseña o usuario no valido'}});      
           }
-      //     } else {
-      //       // Si la contraseña esta mal
-      //       return res.render('login', { 
-      //         old: req.body,
-      //         errors: { 
-      //           email: 'la contraseña son inválidos'
-      //         }
-			// 	});
-			// }
-
+           } else {
+            // Si la contraseña esta mal
+            console.log("usuario no valido")
+             res.render('login', {old: req.body, errors: {usuarios: 'Usuario no valido'}});
+			 }
+      //  res.redirect("/");
         }
-        res.redirect("/");
-      }
       else{
         let validador =1
         res.render("login",{errors:errors.errors, validador})
