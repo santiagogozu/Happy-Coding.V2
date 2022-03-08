@@ -35,9 +35,12 @@
 <% }%>
 
 <% if(usuario != undefined){ %>
-
-
     <button onclick="window.location.href='/login'" class="started-button">Hi <%=usuario%></button>
 
+    <form action="/logout" method="POST" class="form is-inline">
+        <button onclick="window.location.href='/login'" class="logOut-button">Logout</button>
+    </form>
+
+    
 
 <% }%>

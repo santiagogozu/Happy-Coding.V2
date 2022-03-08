@@ -9,6 +9,8 @@ router.get("/socks", mainControlers.socks)
 router.get("/bags", mainControlers.bags)
 router.get("/hoodies", mainControlers.hoodies)
 router.get("/hats", mainControlers.hats)
- router.get("/login",mainControlers.login)
+router.get("/login",mainControlers.login)
+router.post('/logout',mainControlers.logout)
+
 
 module.exports=router
