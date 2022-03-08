@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2b2ce65092.js" crossorigin="anonymous"></script>
+    <title>LogIn</title>
+    <!--My CSS-->
+    <link rel="stylesheet" href="/css/styleLogin.css">
+</head>
+<body>
+
+    <!--inicio de header LOGO HAPPY CODING-->
+
+
+
+<div class="logo">
+    <a href="/">
+    <img src="/images/Logo-PNG1.png"> </a>  
+</div>
+
+<!-- BARRA DE BUSQUEDA -->
+<div class="buscar">
+    <input type="text" placeholder="Buscar" required>
+    <div class="btn">
+        <i class="fas fa-search"></i>
+    </div>
+       </div>
+    
+</body>
+</html>
+
+
+<head>
+  <!-- LINEA PARA MOSTRAR INFORMACION DE EXPRESS VALIDATOR -->
+    <title>Login/Sign Up Form</title>
+  </head>
+  <% if(typeof errors != 'undefined'){ %>
+    <h2>Errores</h2>
+    <p style="color:red">ERROR</p>
+    <ul>
+      <% for (let i=0; i<errors.length; i++){ %>
+        <li style="color:red">
+          <%= errors[i].msg %>
+        </li>
+        <%}%>
+    </ul>
+    <%}%>
+
+
+
+  <body>
+    <div class="container" id="container">
+      <!-- CONTENEDOR LOGIN -->
+      <div class="form-container sign-in-container">
+        <form method="POST" action="/user/login" class="form" id="login">
+          <h1 class="form__title">Login</h1>
+          <div class="form__input-group">
+            <label for="username">Username: </label>
+            <input type="text" class="form__input" name="username" id="username" > 
+          </div>
+          <div class="form__input-group">
+            <label for="pass">Password: </label>
+            <input type="password" class="form__input" name="pass" id="pass"> 
+          </div>
+
+          <div class="field">
+            <label for="remember" class="form-label">Recordar mis datos</label>
+            <div class="control">
+                <input  class="form-input"type="checkbox" name="remember" id="remember">
+            </div>
+        </div>
+
+          <div class="form__input-group">
+            <button type="submit" class="form__button">Submit</button>
+          </div>
+       </form>
+      </div>
+      
+      <!-- CONTENEDOR REGISTER -->
+     <div class="form-container sign-up-container">
+        <form method="POST" action="/user/create" class="form" id="login">
+            <h1 class="form__title">Register</h1>
+            <div class="form__input-group">
+              <label for="username">Username: </label>
+              <input type="text" class="form__input" name="username1" id="username"  > 
+            </div>
+            <div class="form__input-group">
+              <label for="pass">Email: </label>
+              <input type="email" class="form__input" name="email1" id="pass"  > 
+            </div>
+            <div class="form__input-group">
+              <label for="pass">Password: </label>
+              <input type="password" class="form__input" name="pass1" id="pass"  > 
+            </div>
+            <div class="form__input-group">
+              <label for="pass">Password: </label>
+              <input type="password" class="form__input" name="pass2" id="pass"  > 
+            </div>
+            <div class="form__input-group">
+              <button type="submit" class="form__button">Submit</button>
+            </div>
+          </form>   
+        </form>
+     </div> 
+     
+     <div class="overlay-container">
+          <div class="overlay">
+              <div class="overlay-panel overlay-left">
+                  <h1>Welcome Back!</h1>
+                  <p>Please login with your personal info</p>
+                  <button class="ghost" id="signIn">Sign In</button>
+              </div>
+              <div class="overlay-panel overlay-right">
+                  <h1>Hello World!</h1>
+                  <p>No account?</p>
+                  <button class="ghost" id="signUp">Sign Up</button>
+              </div>
+          </div>
+      </div>
+   </div>
+
+      
+
+   <!-- CODIGO JAVA PARA EJECUTAR EL CAMBIO ENTRE LOGIN Y REGISTER -->
+
+    <script>
+     
+      const signUpButton = document.getElementById('signUp');
+      const signInButton = document.getElementById('signIn');
+      const container = document.getElementById('container');
+
+      signUpButton.addEventListener('click', () => {
+        container.classList.add("right-panel-active");
+      });
+
+      signInButton.addEventListener('click', () => {
+        container.classList.remove("right-panel-active");
+      });
+
+    </script>
+    
+  </body>

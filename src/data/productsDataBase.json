@@ -1,0 +1,167 @@
+[
+ {
+  "id": 1,
+  "image": "Black-T-shirt.png"
+ },
+ {
+  "id": 6,
+  "name": "Red",
+  "price": "800",
+  "category": "t-shirt",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam deleniti accusantium cupiditate, laudantium eum nobis quos, quisquam consequatur, dolore nisi maxime eligendi et nemo quo optio maiores rem unde?\"",
+  "image": "Black-T-shirt.png"
+ },
+ {
+  "id": 8,
+  "name": "Red",
+  "price": 800,
+  "discount": 3,
+  "category": "t-shirt",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam deleniti accusantium cupiditate, laudantium eum nobis quos, quisquam consequatur, dolore nisi maxime eligendi et nemo quo optio maiores rem unde?",
+  "image": "Black-T-shirt.png"
+ },
+ {
+  "id": 9,
+  "name": "Red",
+  "price": "80002000",
+  "category": "",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam deleniti accusantium cupiditate, laudantium eum nobis quos, quisquam consequatur, dolore nisi maxime eligendi et nemo quo optio maiores rem unde?\"\"",
+  "image": "Socks-1.png"
+ },
+ {
+  "id": 10,
+  "name": "Red",
+  "price": "8000000",
+  "category": "",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam deleniti accusantium cupiditate, laudantium eum nobis quos, quisquam consequatur, dolore nisi maxime eligendi et nemo quo optio maiores rem unde?\"",
+  "image": "socks-2.png"
+ },
+ {
+  "id": 11,
+  "name": "Red",
+  "price": 800,
+  "discount": 3,
+  "category": "socks",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam deleniti accusantium cupiditate, laudantium eum nobis quos, quisquam consequatur, dolore nisi maxime eligendi et nemo quo optio maiores rem unde?",
+  "image": "Socks-1.png"
+ },
+ {
+  "id": 12,
+  "name": "Red",
+  "price": "90",
+  "category": "",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam deleniti accusantium cupiditate, laudantium eum nobis quos, quisquam consequatur, dolore nisi maxime eligendi et nemo quo optio maiores rem unde?\"\"\"\"\"\"\"\"\"\"",
+  "image": "socks-2.png"
+ },
+ {
+  "id": 13,
+  "name": "Red",
+  "price": "800",
+  "category": "",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam deleniti accusantium cupiditate, laudantium eum nobis quos, quisquam consequatur, dolore nisi maxime eligendi et nemo quo optio maiores rem unde?\"",
+  "image": "bag1.png"
+ },
+ {
+  "id": 14,
+  "name": "Red",
+  "price": 800,
+  "discount": 3,
+  "category": "bags",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam deleniti accusantium cupiditate, laudantium eum nobis quos, quisquam consequatur, dolore nisi maxime eligendi et nemo quo optio maiores rem unde?",
+  "image": "bag2.png"
+ },
+ {
+  "id": 15,
+  "name": "Red",
+  "price": 800,
+  "discount": 3,
+  "category": "bags",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam deleniti accusantium cupiditate, laudantium eum nobis quos, quisquam consequatur, dolore nisi maxime eligendi et nemo quo optio maiores rem unde?",
+  "image": "bag1.png"
+ },
+ {
+  "id": 16,
+  "name": "Red",
+  "price": 800,
+  "discount": 3,
+  "category": "bags",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam deleniti accusantium cupiditate, laudantium eum nobis quos, quisquam consequatur, dolore nisi maxime eligendi et nemo quo optio maiores rem unde?",
+  "image": "bag2.png"
+ },
+ {
+  "id": 17,
+  "name": "Red",
+  "price": 800,
+  "discount": 3,
+  "category": "hats",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam deleniti accusantium cupiditate, laudantium eum nobis quos, quisquam consequatur, dolore nisi maxime eligendi et nemo quo optio maiores rem unde?",
+  "image": "hat1.png"
+ },
+ {
+  "id": 19,
+  "name": "Red",
+  "price": 800,
+  "discount": 3,
+  "category": "hoodies",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam deleniti accusantium cupiditate, laudantium eum nobis quos, quisquam consequatur, dolore nisi maxime eligendi et nemo quo optio maiores rem unde?",
+  "image": "hoodie1.png"
+ },
+ {
+  "id": 20,
+  "name": "Red",
+  "price": 800,
+  "discount": 3,
+  "category": "hoodies",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam deleniti accusantium cupiditate, laudantium eum nobis quos, quisquam consequatur, dolore nisi maxime eligendi et nemo quo optio maiores rem unde?",
+  "image": "hoodie2.png"
+ },
+ {
+  "id": 21,
+  "name": "Red",
+  "price": 800,
+  "discount": 3,
+  "category": "hoodies",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quibusdam deleniti accusantium cupiditate, laudantium eum nobis quos, quisquam consequatur, dolore nisi maxime eligendi et nemo quo optio maiores rem unde?",
+  "image": "hoodie1.png"
+ },
+ {
+  "id": 22,
+  "name": "sdfgsdfg",
+  "price": "2345",
+  "category": "hats",
+  "description": "sdfgsdfgsdfg",
+  "image": "image-1645377965272.png"
+ },
+ {
+  "id": 23,
+  "name": "nombre",
+  "price": "",
+  "category": "",
+  "description": "",
+  "image": "image-1645492439628.png"
+ },
+ {
+  "id": 24,
+  "name": "nombre",
+  "price": "234",
+  "category": "",
+  "description": "asdffda",
+  "image": "image-1645493030745.png"
+ },
+ {
+  "id": 25,
+  "name": "media",
+  "price": "100",
+  "category": "",
+  "description": "este es un articulo de prueba\"\"",
+  "image": "image-1645755187850.png"
+ },
+ {
+  "id": 26,
+  "name": "nombre",
+  "price": "8000",
+  "category": "socks",
+  "description": "pruebas de socks",
+  "image": "image-1646607712840.png"
+ }
+]

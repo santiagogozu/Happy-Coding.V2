@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('partials/head.ejs') %>
+
+<body>
+
+<!--inicio de header LOGO HAPPY CODING-->
+
+<%- include('partials/header.ejs') %>
+
+<!-- BOTONES -->
+
+<div>
+    <%- include('partials/animacion.ejs') %>
+</div>
+
+
+
+<div class="MargenHoodies2">
+
+    <div class="camisaCompra1" id="camisaCompra1">
+        <div  class="contedorCamisa1">
+            <img src="/images/products/<%= product.image %>" alt="" class="imgCamisa1">
+        </div>
+        <br>
+        <div class="descripcion"><%= product.description%></div>
+        <br>
+            <div class="precio-carrito">
+                <p class="price">$<%= product.price%></p>
+                <div class="agregarCarro">
+                    <a href="#" class="neon1-button">Add to Cart</a>
+                    <a href="/product/edit/<%= product.id %>" class="edit-button">Edit</a>
+
+                    <form action="/product/delete/<%= product.id %>?_method=DELETE" method="POST" style="display: inline-flex">
+                        <button type="submit" class="delet-button">Delet</button>
+                    </form>
+                </div>
+        </div>
+    </div>
+</div>
+        
+</body>
+</html>

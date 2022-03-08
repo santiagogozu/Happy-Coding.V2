@@ -1,0 +1,63 @@
+[
+ {
+  "id": 11,
+  "username": "aaaaaaaaaaaaaaaaa",
+  "email": "hola@gmail.com",
+  "pass1": "123",
+  "pass2": "123"
+ },
+ {
+  "id": 1,
+  "username": "aaaaaaaaaaaaaaaaa",
+  "email": "hola@gmail.com",
+  "pass1": "123",
+  "pass2": "123"
+ },
+ {
+  "id": 2,
+  "username": "aaaaaaaaaaaaaaaaa",
+  "email": "hola@gmail.com",
+  "pass1": "123",
+  "pass2": "123"
+ },
+ {
+  "id": 3,
+  "username": "aaaaaaaaaaaaaaaaa",
+  "email": "hola@gmail.com",
+  "pass1": "213",
+  "pass2": "123"
+ },
+ {
+  "id": 4,
+  "username": "Diego",
+  "email": "hola@gmail.com",
+  "pass1": "123",
+  "pass2": "123"
+ },
+ {
+  "id": 5,
+  "username": "aaaaaaaaaaaaaaaaa",
+  "email": "hola@gmail.com",
+  "pass1": "123",
+  "pass2": "123"
+ },
+ {
+  "id": 6,
+  "username": "santiagogo",
+  "email": "santiagogo1993@gmail.com"
+ },
+ {
+  "id": 7,
+  "username": "santiagogo1993",
+  "email": "santiagogo1993@gmail.com",
+  "pass1": "$2a$10$DveiA5dJNF0.vv540ZAhbewaaeX8aOrQpytReTSLPZg2ku3i9B6SS",
+  "pass2": "123"
+ },
+ {
+  "id": 8,
+  "username": "felipe",
+  "email": "santiagogo1993@gmail.com",
+  "pass1": "$2a$10$f7uimUUq0Eyy.f3bym5qy.BeOYqdfEAxNhGQyIQtbWLQdCTmh8GSy",
+  "pass2": "123"
+ }
+]

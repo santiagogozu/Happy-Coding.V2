@@ -1,0 +1,43 @@
+<div class="logo">
+    <a href="/">
+    <img src="/images/Logo-PNG1.png"> </a>  
+</div>
+
+<!-- BARRA DE BUSQUEDA -->
+<div class="buscar">
+    <input type="text" placeholder="Buscar" required>
+    <div class="btn">
+        <i class="fas fa-search"></i>
+    </div>
+       </div>
+
+<% if(usuario == undefined){ %>
+<div class="started">
+    <div class="svg hide" id="svg"></div>
+    <!-- GET STARTED & Button -->
+<div class='started button'>
+    <button onclick="window.location.href='/login'" class="started-button">Get Started</button>
+    <br>
+    </div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.8.1/lottie.min.js" integrity="sha512-V1YyTKZJrzJNhcKthpNAaohFXBnu5K9j7Qiz6gv1knFuf13TW/3vpgVVhJu9fvbdW8lb5J6czIhD4fWK2iHKXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    const svgContainer = document.getElementById('svg');
+    const animItem = bodymovin.loadAnimation({
+        wrapper: svgContainer,
+        animType: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'https://assets2.lottiefiles.com/packages/lf20_aRvNGV.json'
+    });
+</script>
+<% }%>
+
+<% if(usuario != undefined){ %>
+
+
+    <button onclick="window.location.href='/login'" class="started-button">Hi <%=usuario%></button>
+
+
+<% }%>
